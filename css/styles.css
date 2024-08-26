@@ -30,8 +30,9 @@ img {
 }
 
 .dark-sky {
-	color: var(--dark-sky);
-	text-align: right;
+	color: var(--light-sky);
+	text-align: center;
+	font-weight: 400;
 }
 
 .section {
@@ -42,7 +43,8 @@ img {
 
 .section-header {
 	text-transform: lowercase;
-	padding: 15px 40px;
+	margin-top: 10px;
+	align-self: center;
 }
 .subheader {
 	padding-left: 40px;
