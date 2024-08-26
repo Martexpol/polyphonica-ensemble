@@ -84,7 +84,7 @@ img {
 
 .music-link:hover,
 .music-link:focus {
-	font-weight: 900;
+	font-weight: 700;
 }
 
 .author {
@@ -103,7 +103,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-weight: 600;
+	font-weight: 400;
 }
 
 .contact-item {
@@ -120,7 +120,7 @@ img {
 
 .contact-link:hover,
 .contact-link:focus {
-	font-weight: 900;
+	font-weight: 700;
 }
 .media-wrapper {
 	width: 40px;
