@@ -77,6 +77,8 @@ img {
 .nav-link {
 	text-decoration: none;
 	color: var(--main-light);
+	line-height: 2;
+	font-size: 30px;
 }
 
 /* about */
@@ -171,10 +173,6 @@ img {
 	background-color: var(--light-sky);
 }
 
-.menu-button {
-	border: 0;
-}
-
 .svg-dark {
 	fill: var(--main-dark);
 }
@@ -198,6 +196,7 @@ img {
 	height: 100vh;
 	padding: 80px 40px 40px;
 	background-color: white;
+	color: var(--main-light);
 	z-index: 999;
 	transform: translateX(100%);
 	transition: transform 250ms ease-in-out;
@@ -212,9 +211,6 @@ img {
 
 .menu-container .menu-toggle {
 	position: absolute;
-	top: 40px;
-	right: 40px;
-
 	color: var(--navy-blue);
 }
 
@@ -231,7 +227,13 @@ img {
 	background-color: transparent;
 }
 /* menu */
-
+.menu-button-x {
+	border: 0;
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	background-color: transparent;
+}
 /* footer */
 .footer {
 	padding: 6px;
