@@ -29,6 +29,23 @@ img {
 	color: var(--main-dark);
 }
 
+.dark-sky {
+	color: var(--dark-sky);
+	text-align: right;
+}
+
+.header-sky {
+	background: rgb(237, 237, 237);
+	background: linear-gradient(
+		90deg,
+		rgba(237, 237, 237, 1) 0%,
+		rgba(239, 239, 239, 1) 25%,
+		rgba(239, 239, 239, 1) 50%,
+		rgba(231, 231, 231, 1) 80%,
+		rgba(217, 217, 217, 1) 100%
+	);
+}
+
 .section {
 	display: flex;
 	flex-direction: column;
@@ -42,6 +59,10 @@ img {
 .subheader {
 	padding-left: 40px;
 	font-style: italic;
+}
+
+.mobile-hidden {
+	display: none;
 }
 /* main */
 .logo {
@@ -57,6 +78,7 @@ img {
 	text-decoration: none;
 	color: var(--main-light);
 }
+
 /* about */
 .about-image {
 	width: 200px;
@@ -74,10 +96,6 @@ img {
 	text-align: center;
 }
 
-.dark-sky {
-	color: var(--dark-sky);
-	text-align: right;
-}
 /* music */
 
 .music-list {
@@ -213,9 +231,7 @@ img {
 	background-color: transparent;
 }
 /* menu */
-.menu {
-	display: none;
-}
+
 /* footer */
 .footer {
 	padding: 6px;
@@ -229,12 +245,18 @@ img {
 	width: 100%;
 	padding: 10px;
 }
-.header-visibility {
+.header-mobile {
+	color: var(--main-dark);
+	position: sticky;
 }
+
 /* ========================= tablet ============================== */
 @media only screen and (min-width: 768px) {
-	.menu {
+	.mobile-hidden {
 		display: flex;
+	}
+	.header-mobile {
+		display: none;
 	}
 }
 
